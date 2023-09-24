@@ -1,3 +1,4 @@
+const menuList = document.querySelector('#menu-list');
 const menuImages = document.querySelectorAll('#menu-list img');
 for (const img of menuImages) {
   img.addEventListener('click', enlargeImg);
@@ -15,6 +16,7 @@ function enlargeImg(e) {
   e.stopPropagation();
   e.target.style.position = "absolute";
   e.target.style.left = 0;
+  e.target.style.top = `${menuList.offsetTop}px`;
 }
 
 function shrinkImgs() {
@@ -25,6 +27,7 @@ function shrinkImgs() {
   for (const img of menuImages) {
     img.style.position = "";
     img.style.left = "";
+    img.style.top = "";
   }
 }
 
