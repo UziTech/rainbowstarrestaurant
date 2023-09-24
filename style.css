@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+}
+
+nav #logo {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-inline-start: 10px;
+  margin-inline-end: 50px;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: nowrap;
+  width:  100%;
+  gap: 50px;
+  margin:  0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color:  blue;
+  font-size: 1.5em;
+  line-height: 50px;
+  font-family: cursive;
+}
+
+#banner {
+  aspect-ratio: 2016 / 1134;
+  background: center / contain no-repeat url('images/hero.jpg');
+}
+
+h1 {
+  font-family: cursive;
+}
+
+#menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#menu-list li {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+#menu-list img {
+  display: inline-block;
+  width: 100%;
+}
+
+#ratings-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#ratings-list li {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+#ratings-list img {
+  display: inline-block;
+  width: 100%;
+}
