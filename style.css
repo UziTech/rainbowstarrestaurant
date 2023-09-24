@@ -42,6 +42,11 @@ h1 {
   font-family: cursive;
 }
 
+#enlarge {
+  margin-top: -1em;
+  font-family: sans-serif;
+}
+
 #menu-list {
   display: flex;
   flex-wrap: wrap;
